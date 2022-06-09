@@ -1,0 +1,18 @@
+{
+	"name": "02",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon",
+		"spread": "nodemon ./js/spread.js",
+		"obj": "nodemon ./js/object.js",
+		"map": "nodemon ./js/map.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Eimantas",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	}
+}
