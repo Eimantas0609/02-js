@@ -8,10 +8,20 @@
 		"spread": "nodemon ./js/spread.js",
 		"obj": "nodemon ./js/object.js",
 		"map": "nodemon ./js/map.js",
+		"class": "nodemon ./js/class.js",
+		"class-extend": "nodemon ./js/class-extend.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Eimantas0609/02-js.git"
 	},
 	"author": "Eimantas",
 	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Eimantas0609/02-js/issues"
+	},
+	"homepage": "https://github.com/Eimantas0609/02-js#readme",
 	"devDependencies": {
 		"nodemon": "^2.0.16"
 	}
