@@ -5,12 +5,20 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon",
+		"switch": "nodemon ./js/switch.js",
+		"2d-array": "nodemon ./js/2d-array.js",
+		"callback": "nodemon ./js/callback.js",
+		"desctructuring": "nodemon ./js/desctructuring.js",
 		"spread": "nodemon ./js/spread.js",
 		"obj": "nodemon ./js/object.js",
 		"map": "nodemon ./js/map.js",
 		"class": "nodemon ./js/class.js",
+		"class-static": "nodemon ./js/class-static.js",
 		"class-extend": "nodemon ./js/class-extend.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"class-router": "nodemon ./js/class-router.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"summation": "nodemon ./codewars/summation.js",
+		"cleanString": "nodemon ./codewars/cleanString.js"
 	},
 	"repository": {
 		"type": "git",
